@@ -1,0 +1,7 @@
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\bin\Debug\Hisne stevilke.exe.config
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\bin\Debug\Hisne stevilke.exe
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\bin\Debug\Hisne stevilke.pdb
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\obj\Debug\Hisne stevilke.csproj.AssemblyReference.cache
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\obj\Debug\Hisne stevilke.csproj.CoreCompileInputs.cache
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\obj\Debug\Hisne stevilke.exe
+C:\Users\tb9218\source\repos\vaje2\Hisne stevilke\obj\Debug\Hisne stevilke.pdb

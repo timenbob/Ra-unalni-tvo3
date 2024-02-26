@@ -1,0 +1,7 @@
+C:\Users\tb9218\source\repos\vaje2\naloga1\bin\Debug\naloga1.exe.config
+C:\Users\tb9218\source\repos\vaje2\naloga1\bin\Debug\naloga1.exe
+C:\Users\tb9218\source\repos\vaje2\naloga1\bin\Debug\naloga1.pdb
+C:\Users\tb9218\source\repos\vaje2\naloga1\obj\Debug\naloga1.csproj.AssemblyReference.cache
+C:\Users\tb9218\source\repos\vaje2\naloga1\obj\Debug\naloga1.csproj.CoreCompileInputs.cache
+C:\Users\tb9218\source\repos\vaje2\naloga1\obj\Debug\naloga1.exe
+C:\Users\tb9218\source\repos\vaje2\naloga1\obj\Debug\naloga1.pdb
