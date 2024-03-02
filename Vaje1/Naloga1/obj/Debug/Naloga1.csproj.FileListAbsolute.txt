@@ -5,3 +5,10 @@ C:\Users\tb9218\source\repos\Vaje1\Naloga1\obj\Debug\Naloga1.csproj.AssemblyRefe
 C:\Users\tb9218\source\repos\Vaje1\Naloga1\obj\Debug\Naloga1.csproj.CoreCompileInputs.cache
 C:\Users\tb9218\source\repos\Vaje1\Naloga1\obj\Debug\Naloga1.exe
 C:\Users\tb9218\source\repos\Vaje1\Naloga1\obj\Debug\Naloga1.pdb
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\bin\Debug\Naloga1.exe.config
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\bin\Debug\Naloga1.exe
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\bin\Debug\Naloga1.pdb
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\obj\Debug\Naloga1.csproj.AssemblyReference.cache
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\obj\Debug\Naloga1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\obj\Debug\Naloga1.exe
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga1\obj\Debug\Naloga1.pdb

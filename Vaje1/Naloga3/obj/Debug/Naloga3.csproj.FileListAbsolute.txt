@@ -1,0 +1,7 @@
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\bin\Debug\Naloga3.exe.config
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\bin\Debug\Naloga3.exe
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\bin\Debug\Naloga3.pdb
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\obj\Debug\Naloga3.csproj.AssemblyReference.cache
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\obj\Debug\Naloga3.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\obj\Debug\Naloga3.exe
+C:\Users\HP\Source\Repos\Programiranje_3\Vaje1\Naloga3\obj\Debug\Naloga3.pdb

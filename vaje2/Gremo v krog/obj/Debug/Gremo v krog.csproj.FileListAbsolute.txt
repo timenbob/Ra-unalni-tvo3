@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\bin\Debug\Gremo v krog.exe.config
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\bin\Debug\Gremo v krog.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\bin\Debug\Gremo v krog.pdb
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\obj\Debug\Gremo v krog.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\obj\Debug\Gremo v krog.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\obj\Debug\Gremo v krog.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Gremo v krog\obj\Debug\Gremo v krog.pdb

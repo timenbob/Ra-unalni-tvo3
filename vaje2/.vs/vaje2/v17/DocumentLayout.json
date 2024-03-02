@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7373608-190A-4FE4-9696-0DD913D0E42D}|Gremo v krog\\Gremo v krog.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje2\\gremo v krog\\gremo_v_krog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7373608-190A-4FE4-9696-0DD913D0E42D}|Gremo v krog\\Gremo v krog.csproj|solutionrelative:gremo v krog\\gremo_v_krog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9B9212-C6A6-4C2B-B2BB-5DAD3317207B}|Obrni_niz\\Obrni_niz.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje2\\obrni_niz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9B9212-C6A6-4C2B-B2BB-5DAD3317207B}|Obrni_niz\\Obrni_niz.csproj|solutionrelative:obrni_niz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CCBB03-4BA6-4C9F-9D2E-CEE4C39F142A}|Hisne stevilke\\Hisne stevilke.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje2\\hisne stevilke\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CCBB03-4BA6-4C9F-9D2E-CEE4C39F142A}|Hisne stevilke\\Hisne stevilke.csproj|solutionrelative:hisne stevilke\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}|Piton na obisku\\Piton na obisku.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje2\\piton na obisku\\piton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}|Piton na obisku\\Piton na obisku.csproj|solutionrelative:piton na obisku\\piton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CA910D-D904-48B4-A482-6026E0154F2C}|Teza niza\\Teza niza.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje2\\teza niza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CA910D-D904-48B4-A482-6026E0154F2C}|Teza niza\\Teza niza.csproj|solutionrelative:teza niza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "gremo_v_krog.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Gremo v krog\\gremo_v_krog.cs",
+              "RelativeDocumentMoniker": "Gremo v krog\\gremo_v_krog.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Gremo v krog\\gremo_v_krog.cs",
+              "RelativeToolTip": "Gremo v krog\\gremo_v_krog.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:27:40.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Obrni_niz\\Program.cs",
+              "RelativeDocumentMoniker": "Obrni_niz\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Obrni_niz\\Program.cs",
+              "RelativeToolTip": "Obrni_niz\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:27:09.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Teza niza\\Program.cs",
+              "RelativeDocumentMoniker": "Teza niza\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Teza niza\\Program.cs",
+              "RelativeToolTip": "Teza niza\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:17:12.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Piton.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Piton na obisku\\Piton.cs",
+              "RelativeDocumentMoniker": "Piton na obisku\\Piton.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Piton na obisku\\Piton.cs",
+              "RelativeToolTip": "Piton na obisku\\Piton.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T13:33:43.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Hisne stevilke\\Program.cs",
+              "RelativeDocumentMoniker": "Hisne stevilke\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje2\\Hisne stevilke\\Program.cs",
+              "RelativeToolTip": "Hisne stevilke\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T13:27:22.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

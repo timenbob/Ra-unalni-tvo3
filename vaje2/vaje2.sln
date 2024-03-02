@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "naloga1", "naloga1\naloga1.csproj", "{E1E93A29-E225-4EFA-AA7C-DD038F9B712F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obrni_niz", "Obrni_niz\Obrni_niz.csproj", "{5F9B9212-C6A6-4C2B-B2BB-5DAD3317207B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pek", "Pek\Pek.csproj", "{7932E711-7A1A-451F-9457-222796CEC084}"
@@ -13,16 +11,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pek2", "Pek2\Pek2.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hisne stevilke", "Hisne stevilke\Hisne stevilke.csproj", "{47CCBB03-4BA6-4C9F-9D2E-CEE4C39F142A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piton na obisku", "Piton na obisku\Piton na obisku.csproj", "{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teza niza", "Teza niza\Teza niza.csproj", "{36CA910D-D904-48B4-A482-6026E0154F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gremo v krog", "Gremo v krog\Gremo v krog.csproj", "{E7373608-190A-4FE4-9696-0DD913D0E42D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1E93A29-E225-4EFA-AA7C-DD038F9B712F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1E93A29-E225-4EFA-AA7C-DD038F9B712F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1E93A29-E225-4EFA-AA7C-DD038F9B712F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1E93A29-E225-4EFA-AA7C-DD038F9B712F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F9B9212-C6A6-4C2B-B2BB-5DAD3317207B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F9B9212-C6A6-4C2B-B2BB-5DAD3317207B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F9B9212-C6A6-4C2B-B2BB-5DAD3317207B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +39,18 @@ Global
 		{47CCBB03-4BA6-4C9F-9D2E-CEE4C39F142A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47CCBB03-4BA6-4C9F-9D2E-CEE4C39F142A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47CCBB03-4BA6-4C9F-9D2E-CEE4C39F142A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F5E762-D42C-4051-AAE0-9CFF1065ADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CA910D-D904-48B4-A482-6026E0154F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CA910D-D904-48B4-A482-6026E0154F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CA910D-D904-48B4-A482-6026E0154F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CA910D-D904-48B4-A482-6026E0154F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7373608-190A-4FE4-9696-0DD913D0E42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7373608-190A-4FE4-9696-0DD913D0E42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7373608-190A-4FE4-9696-0DD913D0E42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7373608-190A-4FE4-9696-0DD913D0E42D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

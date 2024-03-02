@@ -11,9 +11,12 @@ namespace Naloga3
         static void Main(string[] args)
         {
             Random rand_stevilo = new Random();
-            double st = rand_stevilo;
-            double x = vrečaNakŠtev.NextDouble();
+            int x = rand_stevilo.Next(100,1000);
 
-        }
+
+            Console.WriteLine("Naše naključno število=" + x);
+        
+
+    }
     }
 }

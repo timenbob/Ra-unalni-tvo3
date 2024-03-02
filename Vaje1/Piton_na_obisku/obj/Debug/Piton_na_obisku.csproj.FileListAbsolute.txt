@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\bin\Debug\Piton_na_obisku.exe.config
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\bin\Debug\Piton_na_obisku.exe
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\bin\Debug\Piton_na_obisku.pdb
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\obj\Debug\Piton_na_obisku.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\obj\Debug\Piton_na_obisku.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\obj\Debug\Piton_na_obisku.exe
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\Piton_na_obisku\obj\Debug\Piton_na_obisku.pdb

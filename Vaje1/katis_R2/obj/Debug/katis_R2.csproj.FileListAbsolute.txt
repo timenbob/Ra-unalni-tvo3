@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\bin\Debug\katis_R2.exe.config
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\bin\Debug\katis_R2.exe
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\bin\Debug\katis_R2.pdb
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\obj\Debug\katis_R2.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\obj\Debug\katis_R2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\obj\Debug\katis_R2.exe
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\katis_R2\obj\Debug\katis_R2.pdb

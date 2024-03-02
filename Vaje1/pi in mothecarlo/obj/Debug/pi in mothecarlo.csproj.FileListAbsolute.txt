@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\bin\Debug\pi in mothecarlo.exe.config
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\bin\Debug\pi in mothecarlo.exe
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\bin\Debug\pi in mothecarlo.pdb
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\obj\Debug\pi in mothecarlo.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\obj\Debug\pi in mothecarlo.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\obj\Debug\pi in mothecarlo.exe
+C:\Users\HP\source\repos\Programiranje_3\Vaje1\pi in mothecarlo\obj\Debug\pi in mothecarlo.pdb

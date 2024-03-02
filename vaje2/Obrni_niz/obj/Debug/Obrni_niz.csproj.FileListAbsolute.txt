@@ -5,3 +5,10 @@ C:\Users\tb9218\source\repos\vaje2\Obrni_niz\obj\Debug\Obrni_niz.csproj.Assembly
 C:\Users\tb9218\source\repos\vaje2\Obrni_niz\obj\Debug\Obrni_niz.csproj.CoreCompileInputs.cache
 C:\Users\tb9218\source\repos\vaje2\Obrni_niz\obj\Debug\Obrni_niz.exe
 C:\Users\tb9218\source\repos\vaje2\Obrni_niz\obj\Debug\Obrni_niz.pdb
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\bin\Debug\Obrni_niz.exe.config
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\bin\Debug\Obrni_niz.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\bin\Debug\Obrni_niz.pdb
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\obj\Debug\Obrni_niz.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\obj\Debug\Obrni_niz.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\obj\Debug\Obrni_niz.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Obrni_niz\obj\Debug\Obrni_niz.pdb

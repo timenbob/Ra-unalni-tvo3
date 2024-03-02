@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\bin\Debug\Piton na obisku.exe.config
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\bin\Debug\Piton na obisku.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\bin\Debug\Piton na obisku.pdb
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\obj\Debug\Piton na obisku.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\obj\Debug\Piton na obisku.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\obj\Debug\Piton na obisku.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Piton na obisku\obj\Debug\Piton na obisku.pdb
