@@ -5,3 +5,10 @@ C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\to je moja datoteka\obj\Deb
 C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.exe
 C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.pdb
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\bin\Debug\to je moja datoteka.exe.config
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\bin\Debug\to je moja datoteka.exe
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\bin\Debug\to je moja datoteka.pdb
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.csproj.AssemblyReference.cache
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.exe
+C:\Users\HP\Source\Repos\Programiranje_3\vaje3\to je moja datoteka\obj\Debug\to je moja datoteka.pdb

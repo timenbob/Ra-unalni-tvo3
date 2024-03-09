@@ -11,7 +11,7 @@ namespace to_je_moja_datoteka
     {
         static void Main(string[] args)
         {
-            string f = @"C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\to je moja datoteka\vaja.txt";
+            string f = @"C:\Users\HP\source\repos\Programiranje_3\vaje3\to je moja datoteka\vaja.txt";
 
             Console.Write("Napiši ime datoteke: ");
             String imeDat= Console.ReadLine();
