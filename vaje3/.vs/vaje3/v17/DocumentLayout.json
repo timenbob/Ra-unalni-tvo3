@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{26F8E03C-C50E-4D6E-B839-4C8C5C7E8CF7}|Odstrani komentar\\Odstrani komentar.csproj|solutionrelative:odstrani komentar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E7D4F9F-ED1A-4369-8CF2-DBD419ABEE69}|to je moja datoteka\\to je moja datoteka.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\to je moja datoteka\\tojemojadatoteka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E7D4F9F-ED1A-4369-8CF2-DBD419ABEE69}|to je moja datoteka\\to je moja datoteka.csproj|C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\to je moja datoteka\\tojemojadatoteka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E7D4F9F-ED1A-4369-8CF2-DBD419ABEE69}|to je moja datoteka\\to je moja datoteka.csproj|solutionrelative:to je moja datoteka\\tojemojadatoteka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ED69ABA-62EF-4AA1-8AC1-3E6F9BA8FF42}|Zamenjava elemetov\\Zamenjava elemetov.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\zamenjava elemetov\\zamenjavaelemetov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1ED69ABA-62EF-4AA1-8AC1-3E6F9BA8FF42}|Zamenjava elemetov\\Zamenjava elemetov.csproj|C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\zamenjava elemetov\\zamenjavaelemetov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ED69ABA-62EF-4AA1-8AC1-3E6F9BA8FF42}|Zamenjava elemetov\\Zamenjava elemetov.csproj|solutionrelative:zamenjava elemetov\\zamenjavaelemetov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5A79C2B-5A94-433E-8A7E-E2FB945644AB}|Popravi_spremeni\\Popravi_spremeni.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\popravi_spremeni\\popravispremeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5A79C2B-5A94-433E-8A7E-E2FB945644AB}|Popravi_spremeni\\Popravi_spremeni.csproj|C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\popravi_spremeni\\popravispremeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5A79C2B-5A94-433E-8A7E-E2FB945644AB}|Popravi_spremeni\\Popravi_spremeni.csproj|solutionrelative:popravi_spremeni\\popravispremeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,8 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -42,6 +58,14 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ToJeMojaDatoteka.cs",
@@ -51,8 +75,7 @@
               "RelativeToolTip": "to je moja datoteka\\ToJeMojaDatoteka.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T13:32:46.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T13:32:46.287Z"
             },
             {
               "$type": "Document",
@@ -64,8 +87,7 @@
               "RelativeToolTip": "Zamenjava elemetov\\ZamenjavaElemetov.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T09:10:25.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T09:10:25.823Z"
             },
             {
               "$type": "Document",
@@ -77,8 +99,7 @@
               "RelativeToolTip": "Popravi_spremeni\\PopraviSpremeni.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T09:08:06.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T09:08:06.656Z"
             }
           ]
         }
