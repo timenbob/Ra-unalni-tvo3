@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\bin\Debug\Zamenjava elemetov.exe.config
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\bin\Debug\Zamenjava elemetov.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\bin\Debug\Zamenjava elemetov.pdb
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\obj\Debug\Zamenjava elemetov.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\obj\Debug\Zamenjava elemetov.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\obj\Debug\Zamenjava elemetov.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Zamenjava elemetov\obj\Debug\Zamenjava elemetov.pdb

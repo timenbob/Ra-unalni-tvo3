@@ -16,12 +16,36 @@ namespace Teza_niza
             string t = Console.ReadLine();
 
             if (t == "slovenska") {
-                Console.WriteLine($"{}");
+                Console.WriteLine($"{tezaSlo(s)}");
             }
             else
             {
-                Console.WriteLine($"{}");
+                Console.WriteLine($"{tezaEng(s)}");
             }
+        }
+
+        static int tezaSlo( string s )
+        {
+            int teza = 0;
+            foreach (char crka in s)
+            {
+                if (char.IsLower(crka)) {teza += (int)crka - (int)'a' + 1;}
+                    
+                else if (char.IsUpper(crka)) {teza += (int)crka - (int)'A' + 51;}
+                    
+            }
+            return teza;
+        }
+
+        static int tezaEng(string s)
+        {
+            int teza = 0;
+            foreach (char crka in s)
+            {
+                if (char.IsLetter(crka))
+                    teza += (int)crka;
+            }
+            return teza;
         }
     }
 }

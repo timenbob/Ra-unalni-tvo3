@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26F8E03C-C50E-4D6E-B839-4C8C5C7E8CF7}|Odstrani komentar\\Odstrani komentar.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\odstrani komentar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F8E03C-C50E-4D6E-B839-4C8C5C7E8CF7}|Odstrani komentar\\Odstrani komentar.csproj|solutionrelative:odstrani komentar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E7D4F9F-ED1A-4369-8CF2-DBD419ABEE69}|to je moja datoteka\\to je moja datoteka.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\to je moja datoteka\\tojemojadatoteka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E7D4F9F-ED1A-4369-8CF2-DBD419ABEE69}|to je moja datoteka\\to je moja datoteka.csproj|solutionrelative:to je moja datoteka\\tojemojadatoteka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED69ABA-62EF-4AA1-8AC1-3E6F9BA8FF42}|Zamenjava elemetov\\Zamenjava elemetov.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\zamenjava elemetov\\zamenjavaelemetov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED69ABA-62EF-4AA1-8AC1-3E6F9BA8FF42}|Zamenjava elemetov\\Zamenjava elemetov.csproj|solutionrelative:zamenjava elemetov\\zamenjavaelemetov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A79C2B-5A94-433E-8A7E-E2FB945644AB}|Popravi_spremeni\\Popravi_spremeni.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\vaje3\\popravi_spremeni\\popravispremeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A79C2B-5A94-433E-8A7E-E2FB945644AB}|Popravi_spremeni\\Popravi_spremeni.csproj|solutionrelative:popravi_spremeni\\popravispremeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\Odstrani komentar\\Program.cs",
+              "RelativeDocumentMoniker": "Odstrani komentar\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\Odstrani komentar\\Program.cs",
+              "RelativeToolTip": "Odstrani komentar\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T14:14:37.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToJeMojaDatoteka.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\to je moja datoteka\\ToJeMojaDatoteka.cs",
+              "RelativeDocumentMoniker": "to je moja datoteka\\ToJeMojaDatoteka.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\to je moja datoteka\\ToJeMojaDatoteka.cs",
+              "RelativeToolTip": "to je moja datoteka\\ToJeMojaDatoteka.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T13:32:46.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZamenjavaElemetov.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\Zamenjava elemetov\\ZamenjavaElemetov.cs",
+              "RelativeDocumentMoniker": "Zamenjava elemetov\\ZamenjavaElemetov.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\Zamenjava elemetov\\ZamenjavaElemetov.cs",
+              "RelativeToolTip": "Zamenjava elemetov\\ZamenjavaElemetov.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T09:10:25.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PopraviSpremeni.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\Popravi_spremeni\\PopraviSpremeni.cs",
+              "RelativeDocumentMoniker": "Popravi_spremeni\\PopraviSpremeni.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\vaje3\\Popravi_spremeni\\PopraviSpremeni.cs",
+              "RelativeToolTip": "Popravi_spremeni\\PopraviSpremeni.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T09:08:06.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

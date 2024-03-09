@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\obj\Debug\Teza niza.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\obj\Debug\Teza niza.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\bin\Debug\Teza niza.exe.config
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\bin\Debug\Teza niza.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\bin\Debug\Teza niza.pdb
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\obj\Debug\Teza niza.exe
+C:\Users\HP\source\repos\Programiranje_3\vaje2\Teza niza\obj\Debug\Teza niza.pdb

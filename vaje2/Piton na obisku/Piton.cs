@@ -25,11 +25,11 @@ namespace Piton_na_obisku
             for (int i = 0; i < t.Length; i++)
             {
                 int stevec = 0;
-                for (int j = 0; j < t.Length; j++)
+                for (int j = 0; j < s.Length; j++)
                 {
-                    if (t[i] == t[j]) stevec++;
+                    if (t[i] == s[j]) stevec++;
                 }
-                if (stevec > m)
+                if (stevec >= m)
                 {
                     nizC[i] = stevec;
                     m = stevec;
@@ -44,6 +44,7 @@ namespace Piton_na_obisku
                 {
                     U[i] = "" + t[i];
                 }
+                else { U[i] = ""; }
             }
 
             string resitev = "";
@@ -51,6 +52,7 @@ namespace Piton_na_obisku
             {
                 if (U[i] != "")
                 {
+                    
                     resitev = resitev + U[i];
                 }
             }

@@ -1,0 +1,10 @@
+Nalogo Pek sem rešil tako, da sem najprej ročno uredil kodo ter nato označil del kode in s pomočjo edit- refactor- extract method prepustiu VS da ustvari nove metode.
+ideje rešotev:
+Gremo v korg- vnos razdelimo po presledhih in iz tega naredimo seznam nizov. Ustvarimo novo funkcijo. Zapomnemo si zdanji znak ostale zanke prestavimo za eno mesto na koncu znak ki smo si ga zapomnili postavimo na prvo mesto. To je funkcija za en premik. Sedaj to funkcijo pokličemo toklikokrat, kolikokrat hočemo narediti zamik. Za negativna števila pa je premik to število + dolžina niza dokler ne pridemo do pozitivnega števila in to je število za katerega se bomo zamaknili.
+
+Hišne številke- vsa števila rakosamo na števke in jih preštejemo.
+
+Piton na obisku- python kodo predelamo v c# kodo.
+
+Teža niza- mi je še ni ratalo rešiti.
+
