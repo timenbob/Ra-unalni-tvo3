@@ -13,8 +13,6 @@ namespace datoteka_nakjlučnih_števil
         {
             Ustvari(@"C:\Users\HP\source\repos\Programiranje_3\vaje3\datoteka nakjlučnih števil\vaja.txt", 5, 10, 9, 2);
             Console.ReadKey();
-
-
         }
         static void Ustvari(string ime, int maxvrstic, int maxstevil, int maxvrednost, int poravnaj=0)
         {
