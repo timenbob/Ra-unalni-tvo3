@@ -10,7 +10,7 @@ namespace prva
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Program izpiše vrednost izraza (a+b)/c, za cela števila a,b,c");
+            Console.WriteLine("Progra m izpiše vrednost izraza (a+b)/c, za cela števila a,b,c");
             try
             {
                 Console.Write("Vnesi a: ");

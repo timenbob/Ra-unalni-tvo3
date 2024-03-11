@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prva", "prva\prva.csproj", "{8959EBC6-1154-4EF1-9353-41D66490F84E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "druga", "druga\druga.csproj", "{BF3916C8-2D46-4D1D-AC5A-D4CA9B142209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lovljenje napak1", "Lovljenje napak1\Lovljenje napak1.csproj", "{6FDE9F31-3221-4852-9A8C-1557C74DF4E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8959EBC6-1154-4EF1-9353-41D66490F84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8959EBC6-1154-4EF1-9353-41D66490F84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8959EBC6-1154-4EF1-9353-41D66490F84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3916C8-2D46-4D1D-AC5A-D4CA9B142209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3916C8-2D46-4D1D-AC5A-D4CA9B142209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3916C8-2D46-4D1D-AC5A-D4CA9B142209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3916C8-2D46-4D1D-AC5A-D4CA9B142209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDE9F31-3221-4852-9A8C-1557C74DF4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDE9F31-3221-4852-9A8C-1557C74DF4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDE9F31-3221-4852-9A8C-1557C74DF4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDE9F31-3221-4852-9A8C-1557C74DF4E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
