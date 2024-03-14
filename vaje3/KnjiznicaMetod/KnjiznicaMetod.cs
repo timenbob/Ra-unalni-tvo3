@@ -10,7 +10,9 @@ namespace KnjiznicaMetod
     {
         static void Main(string[] args)
         {
-            int[] tabela = { 1, 2, 3, 4, 5 };
+
+
+            int[] tabela = { 1, 2, 3, 4C:\Users\tb9218\source\repos, 5 };
             Console.WriteLine("Izvorna tabela: " + TabelaKotNiz(tabela));
 
             PodvojiVelikost(ref tabela);
