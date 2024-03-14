@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lovljenjenapak1
 {
-    internal class Program
+    internal class LovljenjeNapak
     {
         /// <summary>
         /// definirana funkcija

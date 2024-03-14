@@ -16,51 +16,51 @@ namespace Prozenje_napak_1
         /// <returns></returns>
         static int PreberiInt()
         {
-            int result;
-            while (!int.TryParse(Console.ReadLine(), out result))//out result nastavi result na upisano vrednost če je true sicer na prevzeto
+            int rezultat;
+            while (!int.TryParse(Console.ReadLine(), out rezultat))//out rezultat nastavi rezultat na upisano vrednost če je true sicer na prevzeto
             {
                 Console.WriteLine("NAPAKA: Vnesite celo število.");
             }
-            return result;
+            return rezultat;
         }
 
         static void Racunanje(int n)
         {
-            int correctAnswers = 0;
-            while (correctAnswers < n)
+            int odg = 0;
+            while (odg < n)
             {
                 int a = rand.Next(1, 101); // naključno število med 1 in 100
                 int b = rand.Next(1, 101); // naključno število med 1 in 100
-                int operation = rand.Next(3); // naključna operacija (0 za +, 1 za -, 2 za *)
+                int operant = rand.Next(3); // naključna operacija (0 za +, 1 za -, 2 za *)
 
                 char op;
-                int expected;
-                switch (operation)
+                int vrednost;
+                switch (operant)
                 {
                     case 0:
                         op = '+';
-                        expected = a + b;
+                        vrednost = a + b;
                         break;
                     case 1:
                         op = '-';
-                        expected = a - b;
+                        vrednost = a - b;
                         break;
                     default:
                         op = '*';
-                        expected = a * b;
+                        vrednost = a * b;
                         break;
                 }
 
                 Console.Write($"{a} {op} {b} = ");
-                int answer = PreberiInt();
-                if (answer == expected)//če je rezultat ena vpisanemu povečamo stevec
+                int odgovor = PreberiInt();
+                if (odgovor == vrednost)//če je rezultat ena vpisanemu povečamo stevec
                 {
-                    correctAnswers++;
+                    odg++;
                     Console.WriteLine("Pravilno!");
                 }
                 else
                 {
-                    Console.WriteLine($"NAPAKA: Rezultat ni pravilen. Pravilen odgovor je {expected}.");
+                    Console.WriteLine($"NAPAKA: Rezultat ni pravilen. Pravilen odgovor je {vrednost}.");
                 }
             }
         }

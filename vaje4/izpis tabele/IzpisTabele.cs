@@ -8,6 +8,13 @@ namespace izpis_tabele
 {
     internal class IzpisTabele
     {
+        /// <summary>
+        /// Naredi lep izpis tabele
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="tab">podatki</param>
+        /// <param name="n">st elementov v vrstici</param>
+        /// <param name="vmes">ločilo med elementi</param>
         static void IzpisTabelef<T>(T[] tab, int n, string vmes)
         {
             for (int i = 0; i < tab.Length; i++)
