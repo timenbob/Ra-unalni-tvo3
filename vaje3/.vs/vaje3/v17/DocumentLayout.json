@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B2B774C-EC9F-45A1-8D0E-484E286BF9BC}|KnjiznicaMetod\\KnjiznicaMetod.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\knjiznicametod\\knjiznicametod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2B774C-EC9F-45A1-8D0E-484E286BF9BC}|KnjiznicaMetod\\KnjiznicaMetod.csproj|solutionrelative:knjiznicametod\\knjiznicametod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F2D0996-C528-4E1D-85D6-FD77B651117E}|datoteka nakjlu\u010Dnih \u0161tevil\\datoteka nakjlu\u010Dnih \u0161tevil.csproj|c:\\users\\hp\\source\\repos\\programiranje_3\\vaje3\\datoteka nakjlu\u010Dnih \u0161tevil\\nakljucastevila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F2D0996-C528-4E1D-85D6-FD77B651117E}|datoteka nakjlu\u010Dnih \u0161tevil\\datoteka nakjlu\u010Dnih \u0161tevil.csproj|solutionrelative:datoteka nakjlu\u010Dnih \u0161tevil\\nakljucastevila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,25 +37,8 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KnjiznicaMetod.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\KnjiznicaMetod\\KnjiznicaMetod.cs",
-              "RelativeDocumentMoniker": "KnjiznicaMetod\\KnjiznicaMetod.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\KnjiznicaMetod\\KnjiznicaMetod.cs",
-              "RelativeToolTip": "KnjiznicaMetod\\KnjiznicaMetod.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:06:37.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "nakljucaStevila.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Programiranje_3\\vaje3\\datoteka nakjlu\u010Dnih \u0161tevil\\nakljucaStevila.cs",
               "RelativeDocumentMoniker": "datoteka nakjlu\u010Dnih \u0161tevil\\nakljucaStevila.cs",
@@ -69,6 +48,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T10:23:58.689Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

@@ -1,7 +1,0 @@
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\bin\Debug\Popravi_spremeni.exe.config
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\bin\Debug\Popravi_spremeni.exe
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\bin\Debug\Popravi_spremeni.pdb
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\obj\Debug\Popravi_spremeni.csproj.AssemblyReference.cache
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\obj\Debug\Popravi_spremeni.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\obj\Debug\Popravi_spremeni.exe
-C:\Users\HP\source\repos\Programiranje_3\vaje3\vaje3\Popravi_spremeni\obj\Debug\Popravi_spremeni.pdb
