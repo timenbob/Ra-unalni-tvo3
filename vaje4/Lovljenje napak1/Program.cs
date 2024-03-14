@@ -9,21 +9,44 @@ namespace Lovljenjenapak1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// definirana funkcija
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
+        static int F(int i)
         {
-           
-        }
-
-        public static int[] tabeliraj(int t){
-            int[] result = new int[t];
-            for(int i = 0; i < t;i++) {
-                result[i] = f(t);
+            try
+            {
+                return 100 / (i % 3);
             }
-            return result;
+            catch (DivideByZeroException)
+            {
+                return 0;
+            }
         }
 
-        public static int f(int i)
+        /// <summary>
+        /// tabelira funkcijo
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        static List<int> Tabeliraj(int n)
         {
-            return 100 / (i % 3);}
+            List<int> tabela = new List<int>();
+            for (int i = 0; i < n; i++)
+            {
+                tabela.Add(F(i));
+            }
+            return tabela;
+        }
+
+        static void Main()
+        {
+            Console.Write("Napisi celo stevil: ");
+            Console.ReadLine();
+            List<int> rezultat = Tabeliraj(11);
+            Console.WriteLine("[{0}]", string.Join(", ", rezultat));
+        }
     }
 }

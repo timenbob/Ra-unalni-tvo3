@@ -32,7 +32,8 @@ namespace prva
             {
                 Console.WriteLine("Nekaj je šlo narobe:");
                 Console.WriteLine(e.ToString());
-                Console.WriteLine("Popravi program, da bo to izjemo obravnaval posebej.");
+                
+            
             }
         }
     }
