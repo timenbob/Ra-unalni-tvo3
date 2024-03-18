@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MnozimoSe", "MnozimoSe\Mnoz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KvadratnaEnacba", "KvadratnaEnacba\KvadratnaEnacba.csproj", "{B84D8432-0C59-487B-ABDA-723542F3FABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromskaStevila", "PalindromskaStevila\PalindromskaStevila.csproj", "{AA1DB785-6E56-4345-B562-735CC2C32774}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B84D8432-0C59-487B-ABDA-723542F3FABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B84D8432-0C59-487B-ABDA-723542F3FABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B84D8432-0C59-487B-ABDA-723542F3FABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1DB785-6E56-4345-B562-735CC2C32774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1DB785-6E56-4345-B562-735CC2C32774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1DB785-6E56-4345-B562-735CC2C32774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1DB785-6E56-4345-B562-735CC2C32774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
