@@ -12,6 +12,8 @@ namespace PalindromskaStevila
         {
             palind(90, 130);
             palind(12, 21);
+            palind(0, 0);
+            palind(120, 21);
         }
 
         static void palind(int zacetek, int konec)
