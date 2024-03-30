@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vozilo", "Vozilo\Vozilo.csproj", "{419826B7-30E9-4F0E-B2C2-0833ECEB38BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoziloTests", "VoziloTests\VoziloTests.csproj", "{EA42A986-4E5C-4A02-87DA-78C0555778C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{419826B7-30E9-4F0E-B2C2-0833ECEB38BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419826B7-30E9-4F0E-B2C2-0833ECEB38BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419826B7-30E9-4F0E-B2C2-0833ECEB38BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419826B7-30E9-4F0E-B2C2-0833ECEB38BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA42A986-4E5C-4A02-87DA-78C0555778C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA42A986-4E5C-4A02-87DA-78C0555778C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA42A986-4E5C-4A02-87DA-78C0555778C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA42A986-4E5C-4A02-87DA-78C0555778C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0743595D-5053-4474-AA8E-EB81B76C84BD}
+	EndGlobalSection
+EndGlobal
