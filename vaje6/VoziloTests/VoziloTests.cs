@@ -17,7 +17,7 @@ namespace Vozilo.Tests
             double kapaciteta = 50;
             double poraba = 5;
             Vozilo vozilo = new Vozilo(kapaciteta, poraba);
-            Assert.AreEqual(kapaciteta, vozilo.PreostaliKilometri);
+            Assert.AreEqual(kapaciteta, vozilo.Gorivo);
         }
 
         [TestMethod()]
@@ -29,7 +29,7 @@ namespace Vozilo.Tests
             Vozilo vozilo = new Vozilo(kapaciteta, poraba);
             vozilo.Crpalka();
 
-            Assert.AreEqual(kapaciteta, vozilo.PreostaliKilometri);
+            Assert.AreEqual(kapaciteta, vozilo.Gorivo);
         }
 
         [TestMethod()]
@@ -48,16 +48,27 @@ namespace Vozilo.Tests
         [TestMethod()]
         public void AliPrevoziTest2()
         {
-            double kapaciteta = 50;
+            double kapaciteta = 5;
             double poraba = 5;
-            double[] pot = { 10, 20, 35 };
+            double[] pot = { 99, 0, 100 };
+            Vozilo vozilo = new Vozilo(kapaciteta, poraba);
+
+            bool uspesno = vozilo.AliPrevozi(pot);
+
+            Assert.IsTrue(uspesno);
+        }
+        [TestMethod()]
+        public void AliPrevoziTest3()
+        {
+            double kapaciteta = 5;
+            double poraba = 5;
+            double[] pot = { 99, 5, 100 };
             Vozilo vozilo = new Vozilo(kapaciteta, poraba);
 
             bool uspesno = vozilo.AliPrevozi(pot);
 
             Assert.IsFalse(uspesno);
         }
-
 
     }
 }

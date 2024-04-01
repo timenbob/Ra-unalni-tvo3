@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace Vozilo
 {
     
+    public class Program
+    {
+        public static void Main(string[] args) { }
+    }
 
     public class Vozilo
     {
@@ -44,6 +48,14 @@ namespace Vozilo
             }
         }
 
+        public double Gorivo
+        {
+            get
+            {
+                return gorivo;
+            }
+        }
+
         //metoda
         public void Crpalka()
         {
@@ -66,7 +78,7 @@ namespace Vozilo
                 {
                     return false;
                 }
-                gorivo -= el * poraba;
+                gorivo -= el * poraba/100;
             }
             return true;
         }
