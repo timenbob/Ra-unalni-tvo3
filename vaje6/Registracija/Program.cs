@@ -19,7 +19,7 @@ namespace Registracija
         private string registracija;
 
         // Veljavna območja
-        private static readonly HashSet<string> veljavnaObmocja = new HashSet<string>
+        private static HashSet<string> veljavnaObmocja = new HashSet<string>
         {
         "LJ", "KR", "KK", "MB", "MS", "KP", "GO", "CE", "SG", "NM", "PO"
          };
