@@ -11,10 +11,12 @@ namespace KolikoNajvečjih
         static void Main(string[] args)
         {
             int[] tabela1 = { };
-            int kolikoNajvecjih= KolikoJeNajvecjih(tabela1);
+            int kolikoNajvecjih= KolikoJeNajvecjihFun(tabela1);
             Console.WriteLine(kolikoNajvecjih);
 
-        
+            int[] tabela2 = {1, 1, 2, 2, 3, 3 };
+            int kolikoNajvecjih2 = KolikoJeNajvecjihFun(tabela2);
+            Console.WriteLine(kolikoNajvecjih2);
 
         }
 
@@ -24,7 +26,7 @@ namespace KolikoNajvečjih
         /// <typeparam name="T">tip tabele</typeparam>
         /// <param name="tabela">tabela podatkov</param>
         /// <returns>Vrne število pojavitev največjega elementa</returns>
-        static int KolikoJeNajvecjih<T>(T[] tabela) where T : IComparable<T>
+        static int KolikoJeNajvecjihFun<T>(T[] tabela) where T : IComparable<T>
         {   
             if (tabela.Length == 0) return 0;
 
