@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace GridGame
 {
-    internal class Position
+    public class Position
     {
         private int x, y; 
 
-        public gett
+        public int[] Pozicija {
+            get { return new int[] { x, y }; }
+            set
+            {
+                x = value[0];
+                y = value[1];
+            }
+         
+        }
     }
 }
