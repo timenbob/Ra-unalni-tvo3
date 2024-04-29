@@ -30,7 +30,7 @@ namespace testbanka
             {
                 throw new ArgumentException("dvig nesme biti negativen to je polog");
             }
-            if (dvig > _stanje) { throw ArgumentException("nimas dovolj denarja"); }
+            //if (dvig > _stanje) { throw Exception("nimas dovolj denarja"); }
             else {_stanje -= dvig;}
             
         }
