@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace GridGame
 {
-    internal class Content
+    public class Content
     {
-        private char content = 'E';
+        private char content='E';
         private char[] veljavne_vsebine = new char[] { 'E', 'X', 'O', 'W' };
         // E=empty X=X O=O W=wall
+
+        //public void Content()
+        //{
+        //    this.content = 'E';
+        //}
+
         public char Vsebina {  get { return content; } 
             set 
             {
