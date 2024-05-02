@@ -18,7 +18,7 @@ namespace GridGame
             grid = new Cell[n, m];
         }
 
-        public int[] getsize() { return new int[] {this.n,this.m}; }
+        public int[] GetSize() { return new int[] {this.n,this.m}; }
 
         public void MakeGrid()
         {

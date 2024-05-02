@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VozecaPloscad", "VozecaPlos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pretvornik", "pretvornik\pretvornik.csproj", "{BEECBBB2-AFEA-4874-86C7-8273127DE8BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{70A1E9B0-744A-44C6-9148-5F8740D64FA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BEECBBB2-AFEA-4874-86C7-8273127DE8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEECBBB2-AFEA-4874-86C7-8273127DE8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEECBBB2-AFEA-4874-86C7-8273127DE8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A1E9B0-744A-44C6-9148-5F8740D64FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A1E9B0-744A-44C6-9148-5F8740D64FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A1E9B0-744A-44C6-9148-5F8740D64FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A1E9B0-744A-44C6-9148-5F8740D64FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
