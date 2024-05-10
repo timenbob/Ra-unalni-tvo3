@@ -21,11 +21,8 @@ namespace Ulomek
         // Konstruktor
         public Ulomek(int stevec, int imenovalec)
         {
-            if (imenovalec == 0)
-                throw new ArgumentException("Imenovalec ne sme biti 0.");
-
-            this.stevec = stevec;
-            this.imenovalec = imenovalec;
+            Stevec = stevec;
+            Imenovalec = imenovalec;
         }
 
         // Lastnosti
