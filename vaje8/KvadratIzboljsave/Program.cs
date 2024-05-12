@@ -11,7 +11,12 @@ namespace KvaderIzboljsave
         static void Main(string[] args)
         {
             Kvader kol = new Kvader(5,1,5);
+            Kvader kol2 = new Kvader(5, 2, 5);
+            if (kol != kol2) { Console.WriteLine("jes"); };
             Console.WriteLine(kol);
+            Console.WriteLine(kol.Povrsina().ToString());
+            Console.WriteLine(kol.Prostornina().ToString());
+            if (kol.CompareTo(kol2)<0) { Console.WriteLine("jes"); };
         }
     }
 
@@ -80,7 +85,7 @@ namespace KvaderIzboljsave
         // Relacijski operatorji
         public static bool operator ==(Kvader a, Kvader b)
         {
-            return a.dolzina == b.dolzina && a.sirina == b.sirina && a.visina == b.visina;
+            return a.Dolzina == b.Dolzina && a.Sirina == b.Sirina && a.Visina == b.Visina;
         }
 
         public static bool operator !=(Kvader a, Kvader b)
@@ -91,19 +96,19 @@ namespace KvaderIzboljsave
         // Pomožna metoda za preoblikovanje kvadra v niz
         public override string ToString()
         {
-            return $"Dolžina: {this.dolzina}, Širina: {this.sirina}, Višina: {this.visina}";
+            return $"Dolžina: {Dolzina}, Širina: {Sirina}, Višina: {Visina}";
         }
 
         // Metoda za površino
         public double Povrsina()
         {
-            return 2 * (this.dolzina * this.sirina + this.dolzina * this.visina + this.sirina * this.visina);
+            return 2 * (Dolzina * Sirina + Dolzina * Visina + Sirina * Visina);
         }
 
         // Metoda za prostornino
         public double Prostornina()
         {
-            return this.dolzina * this.sirina * this.visina;
+            return Dolzina * Sirina * Visina;
         }
     }
 }
