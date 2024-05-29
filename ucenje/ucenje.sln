@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grafika", "grafika\grafika.csproj", "{A530AB8F-7DC9-4615-9006-236DF5430F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tictacto", "tictacto\tictacto.csproj", "{6E62E742-E980-44CD-9A7E-3897D075916D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeomLiki", "GeomLiki\GeomLiki.csproj", "{4D804F9C-AAC5-4A20-8F00-BE0E00179A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datoteke", "datoteke\datoteke.csproj", "{6C5FAFE3-93A6-4E4E-B000-8F79924553F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apk2", "apk2\apk2.csproj", "{4FA47A44-1133-4D04-9C7A-3EFA43617F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3vVrsto", "3vVrsto\3vVrsto.csproj", "{56745EEB-C5BF-48BB-88D1-400E7678A32D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A530AB8F-7DC9-4615-9006-236DF5430F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A530AB8F-7DC9-4615-9006-236DF5430F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A530AB8F-7DC9-4615-9006-236DF5430F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A530AB8F-7DC9-4615-9006-236DF5430F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E62E742-E980-44CD-9A7E-3897D075916D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E62E742-E980-44CD-9A7E-3897D075916D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E62E742-E980-44CD-9A7E-3897D075916D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E62E742-E980-44CD-9A7E-3897D075916D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D804F9C-AAC5-4A20-8F00-BE0E00179A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D804F9C-AAC5-4A20-8F00-BE0E00179A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D804F9C-AAC5-4A20-8F00-BE0E00179A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D804F9C-AAC5-4A20-8F00-BE0E00179A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5FAFE3-93A6-4E4E-B000-8F79924553F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5FAFE3-93A6-4E4E-B000-8F79924553F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5FAFE3-93A6-4E4E-B000-8F79924553F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5FAFE3-93A6-4E4E-B000-8F79924553F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA47A44-1133-4D04-9C7A-3EFA43617F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA47A44-1133-4D04-9C7A-3EFA43617F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA47A44-1133-4D04-9C7A-3EFA43617F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA47A44-1133-4D04-9C7A-3EFA43617F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56745EEB-C5BF-48BB-88D1-400E7678A32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56745EEB-C5BF-48BB-88D1-400E7678A32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56745EEB-C5BF-48BB-88D1-400E7678A32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56745EEB-C5BF-48BB-88D1-400E7678A32D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2805DBA1-A511-4E02-9FAA-9020E13D7059}
+	EndGlobalSection
+EndGlobal
