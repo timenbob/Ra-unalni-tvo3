@@ -122,6 +122,11 @@ namespace N3
             return new Temperatura(novaVrednost, vEnoto);
         }
 
+        /// <summary>
+        /// za enoto preveri kaj je absolutna ničla
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
         private double AbsolutnaNičla()
         {
             switch (_enota)
@@ -137,6 +142,12 @@ namespace N3
             }
         }
 
+        /// <summary>
+        /// operacija seštevanja
+        /// </summary>
+        /// <param name="t1"></param>
+        /// <param name="t2"></param>
+        /// <returns></returns>
         public static Temperatura operator +(Temperatura t1, Temperatura t2)
         {
             double t2VrednostVT1Enoti = PretvoriVrednost(t2, t1.Enota);
@@ -148,7 +159,9 @@ namespace N3
             return new Temperatura(t.Vrednost * faktor, t.Enota);
         }
 
-        
-        }
+
+
+
     }
-    }
+}
+    
