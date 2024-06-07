@@ -1,0 +1,183 @@
+﻿hočemo ustavriti razred temperatura, v katerem imamo podatek o vrednosti temperature(realno število) in merski enoti(C,F,K)
+*Imamo lastnost enota. Enota mora biti ena od dovoljenih, v primeru da enoto spremnimo se mora vrednost temerature ohraniti
+*imamo lastnost vrednost, če jo poskusimo postaviti pod absolutno ničli se sproži napaka(absolutna ničla odvisna od enote)
+*vsebuje statično metodo pretvori kjer pretvorimo temperaturo v dano mersko enoto
+*Opis objekta tipa temperatura naj bo npr 12.3C
+*objete temperatura lahko seštevamo uhranimo enoto levega ter jih lahko množimo s celimi števili
+*Vsebuje metodo mediana ki vrne temperaturo ki je mediana temperatur dane tabele objektov tipa temperatura
+
+odgovor:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Temperatura
+{
+    private double _vrednost;
+    private string _enota;
+
+    public double Vrednost
+    {
+        get { return _vrednost; }
+        set
+        {
+            if (value < AbsolutnaNičla())
+                throw new ArgumentException("Vrednost temperature ne more biti pod absolutno ničlo.");
+            _vrednost = value;
+        }
+    }
+
+    public string Enota
+    {
+        get { return _enota; }
+        set
+        {
+            if (value != "C" && value != "F" && value != "K")
+                throw new ArgumentException("Neveljavna enota.");
+            
+            // Pretvorimo temperaturo, če spremenimo enoto
+            if (_enota != null && _enota != value)
+            {
+                Vrednost = Pretvori(_vrednost, _enota, value);
+            }
+            _enota = value;
+        }
+    }
+
+    public Temperatura(double vrednost, string enota)
+    {
+        _enota = enota; // Postavi enoto brez pretvorbe
+        Vrednost = vrednost; // Preveri absolutno ničlo
+    }
+
+    public override string ToString()
+    {
+        return $"{_vrednost}{_enota}";
+    }
+
+    public static double Pretvori(double vrednost, string izEnote, string vEnoto)
+    {
+        if (izEnote == vEnoto)
+            return vrednost;
+
+        double vrednostVKelvin;
+
+        // Najprej pretvori v Kelvin
+        switch (izEnote)
+        {
+            case "C":
+                vrednostVKelvin = vrednost + 273.15;
+                break;
+            case "F":
+                vrednostVKelvin = (vrednost - 32) * 5 / 9 + 273.15;
+                break;
+            case "K":
+                vrednostVKelvin = vrednost;
+                break;
+            default:
+                throw new ArgumentException("Neveljavna začetna enota.");
+        }
+
+        // Potem pretvori iz Kelvin v želeno enoto
+        switch (vEnoto)
+        {
+            case "C":
+                return vrednostVKelvin - 273.15;
+            case "F":
+                return (vrednostVKelvin - 273.15) * 9 / 5 + 32;
+            case "K":
+                return vrednostVKelvin;
+            default:
+                throw new ArgumentException("Neveljavna ciljna enota.");
+        }
+    }
+
+    private double AbsolutnaNičla()
+    {
+        return _enota switch
+        {
+            "C" => -273.15,
+            "F" => -459.67,
+            "K" => 0,
+            _ => throw new ArgumentException("Neveljavna enota.")
+        };
+    }
+
+    public static Temperatura operator +(Temperatura t1, Temperatura t2)
+    {
+        double t2VrednostVT1Enoti = Pretvori(t2.Vrednost, t2.Enota, t1.Enota);
+        return new Temperatura(t1.Vrednost + t2VrednostVT1Enoti, t1.Enota);
+    }
+
+    public static Temperatura operator *(Temperatura t, int faktor)
+    {
+        return new Temperatura(t.Vrednost * faktor, t.Enota);
+    }
+
+    public static Temperatura Mediana(Temperatura[] temperature)
+    {
+        if (temperature == null || temperature.Length == 0)
+            throw new ArgumentException("Tabela temperatur ne sme biti prazna.");
+
+        // Kopiramo temperaturo zaradi pretvorb
+        var kopije = temperature.Select(t => new Temperatura(t.Vrednost, t.Enota)).ToList();
+
+        // Pretvorimo vse temperature v enote prvega elementa
+        string ciljnaEnota = kopije[0].Enota;
+        foreach (var temp in kopije)
+        {
+            temp.Vrednost = Pretvori(temp.Vrednost, temp.Enota, ciljnaEnota);
+            temp.Enota = ciljnaEnota;
+        }
+
+        kopije.Sort((t1, t2) => t1.Vrednost.CompareTo(t2.Vrednost));
+        int sredina = kopije.Count / 2;
+
+        if (kopije.Count % 2 == 0)
+        {
+            return new Temperatura((kopije[sredina - 1].Vrednost + kopije[sredina].Vrednost) / 2, ciljnaEnota);
+        }
+        else
+        {
+            return kopije[sredina];
+        }
+    }
+
+    public static void Main(string[] args)
+    {
+        Temperatura t1 = new
+
+spremeni da ne uporabljaš =>
+
+public static Temperatura Mediana(Temperatura[] temperature)
+{
+    if (temperature == null || temperature.Length == 0)
+        throw new ArgumentException("Tabela temperatur ne sme biti prazna.");
+
+    // Kopiramo temperaturo zaradi pretvorb
+    List<Temperatura> kopije = new List<Temperatura>();
+    foreach (var temp in temperature)
+    {
+        kopije.Add(new Temperatura(temp.Vrednost, temp.Enota));
+    }
+
+    // Pretvorimo vse temperature v enote prvega elementa
+    string ciljnaEnota = kopije[0].Enota;
+    foreach (var temp in kopije)
+    {
+        temp.Vrednost = Pretvori(temp.Vrednost, temp.Enota, ciljnaEnota);
+        temp.Enota = ciljnaEnota;
+    }
+
+    kopije.Sort(delegate(Temperatura t1, Temperatura t2) { return t1.Vrednost.CompareTo(t2.Vrednost); });
+    int sredina = kopije.Count / 2;
+
+    if (kopije.Count % 2 == 0)
+    {
+        return new Temperatura((kopije[sredina - 1].Vrednost + kopije[sredina].Vrednost) / 2, ciljnaEnota);
+    }
+    else
+    {
+        return kopije[sredina];
+    }
+}

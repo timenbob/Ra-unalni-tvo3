@@ -1,0 +1,106 @@
+﻿na voljo imamo vmesnik public interface IGeomLik
+{double Ploščina();
+double Obseg();}
+dano imamo nalogo kjer so vsi elementi tabele istega tipa(vsi so tipa npr kroga ali pa vsi sp tipa Kvadat)sestavi metodo prečisti ki ohrani vrsti red elemntov od lementov ki imajo enako ploščino pa obdrži le enega. Metoda naj v primeru da imamo opraviti s tabelo Krogov vrne skupno ploščino izbrisanih elemntov, drugače pa vsoto obegov. prav tako potrebujemo informacijo o tem koliko je bil izbrisanih elementov uporabi generične tipe sestavi še metodo sem enak ki vrne true ali false ter še metodo imam enako ploščino
+
+odgovor:
+Razumem, potrebujemo metodo Prečisti, ki bo ohranila vrstni red elementov, ki imajo enako ploščino, in obdržala le enega od njih. Metoda naj v primeru, da imamo opraviti s tabelo krogov, vrne skupno ploščino izbrisanih elementov, drugače pa vsoto obsegov. Prav tako potrebujemo informacijo o tem, koliko je bilo izbrisanih elementov. Uporabili bomo generične tipe.
+
+csharp
+Copy code
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public interface IGeomLik
+{
+    double Ploščina();
+    double Obseg();
+}
+
+public class GeometrijskaLik<T> where T : IGeomLik
+{
+    public static (double, int) Prečisti(T[] liki)
+    {
+        Dictionary<double, T> likiPoPloščini = new Dictionary<double, T>();
+        double izbrisanePloščine = 0;
+        int izbrisaniElementi = 0;
+
+        foreach (var lik in liki)
+        {
+            double ploščina = lik.Ploščina();
+            if (!likiPoPloščini.ContainsKey(ploščina))
+            {
+                likiPoPloščini.Add(ploščina, lik);
+            }
+            else
+            {
+                // Element z isto ploščino že obstaja, zato ga izbrišemo
+                izbrisanePloščine += ploščina;
+                izbrisaniElementi++;
+            }
+        }
+
+        // Izračunamo vsoto obsegov
+        double vsotaObsegov = liki.Sum(lik => lik.Obseg());
+
+        return (vsotaObsegov - izbrisanePloščine, izbrisaniElementi);
+    }
+
+    public static bool SemEnak(T lik1, T lik2)
+    {
+        return lik1.Ploščina() == lik2.Ploščina();
+    }
+}
+Dodali smo metodo SemEnak, ki primerja dva lika in vrne true, če imata enako ploščino, in false sicer.
+
+csharp
+Copy code
+// Primer uporabe
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        // Ustvarimo nekaj primerov krogov
+        Krog krog1 = new Krog(5);
+        Krog krog2 = new Krog(3);
+        Krog krog3 = new Krog(5); // Enak kot krog1
+        Krog krog4 = new Krog(2);
+
+        // Naredimo tabelo krogov
+        Krog[] krogi = { krog1, krog2, krog3, krog4 };
+
+        // Prečistimo tabelo krogov
+        var (izbrisanePloščine, izbrisaniElementi) = GeometrijskaLik<Krog>.Prečisti(krogi);
+
+        // Izpis rezultata
+        Console.WriteLine($"Skupna ploščina izbrisanih elementov: {izbrisanePloščine}");
+        Console.WriteLine($"Število izbrisanih elementov: {izbrisaniElementi}");
+
+        // Primerjava dveh krogov
+        bool enakaPloščina = GeometrijskaLik<Krog>.SemEnak(krog1, krog2);
+        Console.WriteLine($"Ali imata krog1 in krog2 enako ploščino? {enakaPloščina}");
+    }
+}
+
+// Primer implementacije razreda Krog
+public class Krog : IGeomLik
+{
+    private double radij;
+
+    public Krog(double radij)
+    {
+        this.radij = radij;
+    }
+
+    public double Ploščina()
+    {
+        return Math.PI * radij * radij;
+    }
+
+    public double Obseg()
+    {
+        return 2 * Math.PI * radij;
+    }
+}
+V tem primeru smo ustvarili nekaj primerov krogov, jih shranili v tabelo in nato uporabili metodo Prečisti, da smo obdržali samo en krog z enako ploščino ter izračunali skupno ploščino izbrisanih elementov in število izbrisanih elementov. Poleg tega smo primerjali dva kroga in preverili, ali imata enako ploščino.
