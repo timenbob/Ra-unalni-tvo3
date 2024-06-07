@@ -59,6 +59,8 @@ namespace Nobel
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Moramo ugotoviti katera vsa področja so, da jih lahko vstavimo v CheckedListBox
+
             string povNiz = "Server= baza.fmf.uni-lj.si; User Id= student11; Password= student; Database= nobel2012;";
             // Povezava s pomočjo Npgsql 
             NpgsqlConnection pov = new NpgsqlConnection(povNiz);
@@ -70,7 +72,7 @@ namespace Nobel
             ukaz.CommandType = CommandType.Text;
             ukaz.CommandText = sql;
             NpgsqlDataReader rez = ukaz.ExecuteReader();
-            string[] subject = new string[8];//ker je 8 področji
+            string[] subject = new string[8];//ker je 8 področji(vem da ni najboljše tako )
             int index = 0;
             while (rez.Read())
             {
@@ -88,7 +90,11 @@ namespace Nobel
 
         }
 
-
+        /// <summary>
+        /// Skrbimo za konsistentnost podatkov
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void checkedListBox1_SelectedValueChanged(object sender, EventArgs e)
         {
             label2.Text = "";

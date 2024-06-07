@@ -55,6 +55,11 @@ namespace Filmi
 
         }
 
+        /// <summary>
+        /// Skrbimo da so podatki konsistentni
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             label2.Text = "";
