@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrizciInKrozci", "KrizciInKrozci\KrizciInKrozci.csproj", "{08FD5965-10B5-40DD-ACBC-60BCD33AE26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masa", "Masa\Masa.csproj", "{A906362F-A375-417B-8960-42983C8C2D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeomLiki", "GeomLiki\GeomLiki.csproj", "{E7D55E93-AEF0-4352-9DDD-93C80165A36D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08FD5965-10B5-40DD-ACBC-60BCD33AE26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FD5965-10B5-40DD-ACBC-60BCD33AE26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FD5965-10B5-40DD-ACBC-60BCD33AE26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FD5965-10B5-40DD-ACBC-60BCD33AE26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A906362F-A375-417B-8960-42983C8C2D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A906362F-A375-417B-8960-42983C8C2D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A906362F-A375-417B-8960-42983C8C2D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A906362F-A375-417B-8960-42983C8C2D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D55E93-AEF0-4352-9DDD-93C80165A36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D55E93-AEF0-4352-9DDD-93C80165A36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D55E93-AEF0-4352-9DDD-93C80165A36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D55E93-AEF0-4352-9DDD-93C80165A36D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1DA07A6-4CDF-4E56-9761-DFDE7B721A0D}
+	EndGlobalSection
+EndGlobal
