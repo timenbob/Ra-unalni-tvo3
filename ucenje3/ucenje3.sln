@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prepis", "prepis\prepis.csproj", "{CCA190D3-B3B2-425D-9384-CD2A9EE924C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pretvornik", "Pretvornik\Pretvornik.csproj", "{5272CACF-35D3-4BA2-BF3E-84842DF6DBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vektor3", "Vektor3\Vektor3.csproj", "{20F9DF24-393B-477A-8D22-FC89BD6E13CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vektor3Tests", "Vektor3Tests\Vektor3Tests.csproj", "{4D108C48-DE30-4386-9F6E-14FFFC7D6718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vrnin", "vrnin\vrnin.csproj", "{F03A3AED-FF9C-43A4-9677-CFCEFD8D77EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "semafor", "semafor\semafor.csproj", "{290460EC-3148-4015-AE91-889BD6FB0D70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA190D3-B3B2-425D-9384-CD2A9EE924C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA190D3-B3B2-425D-9384-CD2A9EE924C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA190D3-B3B2-425D-9384-CD2A9EE924C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA190D3-B3B2-425D-9384-CD2A9EE924C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5272CACF-35D3-4BA2-BF3E-84842DF6DBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5272CACF-35D3-4BA2-BF3E-84842DF6DBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5272CACF-35D3-4BA2-BF3E-84842DF6DBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5272CACF-35D3-4BA2-BF3E-84842DF6DBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F9DF24-393B-477A-8D22-FC89BD6E13CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F9DF24-393B-477A-8D22-FC89BD6E13CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F9DF24-393B-477A-8D22-FC89BD6E13CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F9DF24-393B-477A-8D22-FC89BD6E13CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D108C48-DE30-4386-9F6E-14FFFC7D6718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D108C48-DE30-4386-9F6E-14FFFC7D6718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D108C48-DE30-4386-9F6E-14FFFC7D6718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D108C48-DE30-4386-9F6E-14FFFC7D6718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03A3AED-FF9C-43A4-9677-CFCEFD8D77EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03A3AED-FF9C-43A4-9677-CFCEFD8D77EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03A3AED-FF9C-43A4-9677-CFCEFD8D77EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03A3AED-FF9C-43A4-9677-CFCEFD8D77EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290460EC-3148-4015-AE91-889BD6FB0D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290460EC-3148-4015-AE91-889BD6FB0D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290460EC-3148-4015-AE91-889BD6FB0D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290460EC-3148-4015-AE91-889BD6FB0D70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {635CE5F5-350F-4D01-A5B9-15D3D5B9B52D}
+	EndGlobalSection
+EndGlobal
