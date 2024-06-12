@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vrnin", "vrnin\vrnin.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "semafor", "semafor\semafor.csproj", "{290460EC-3148-4015-AE91-889BD6FB0D70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "registracije", "registracije\registracije.csproj", "{7868233A-C864-479A-8EFA-3746ABCFC082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{290460EC-3148-4015-AE91-889BD6FB0D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{290460EC-3148-4015-AE91-889BD6FB0D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{290460EC-3148-4015-AE91-889BD6FB0D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7868233A-C864-479A-8EFA-3746ABCFC082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7868233A-C864-479A-8EFA-3746ABCFC082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7868233A-C864-479A-8EFA-3746ABCFC082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7868233A-C864-479A-8EFA-3746ABCFC082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

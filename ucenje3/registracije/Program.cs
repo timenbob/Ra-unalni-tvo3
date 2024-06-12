@@ -11,6 +11,7 @@ namespace registracije
         static void Main(string[] args)
         {
             Registracija[] registracija = { new Registracija("LJ","12345"), new Registracija("KR", "12345"), new Registracija("MB", "12345")};
+
         }
 
         public class Registracija
