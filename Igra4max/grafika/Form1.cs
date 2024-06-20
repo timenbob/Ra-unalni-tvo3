@@ -77,6 +77,7 @@ namespace grafika
             InitializeComponent();
         }
 
+        //zacetni ekran
         public void ZacetniEkran()
         {
             // 
@@ -242,7 +243,7 @@ namespace grafika
             int velikostPolja = this.ClientSize.Height;
             int sirinaGumba = velikostPolja / sirina;
 
-            this.Width = sirinaGumba * visina + 500;
+            this.Width = sirinaGumba * visina + 400;
 
         }
 
@@ -388,7 +389,7 @@ namespace grafika
             }
             konec.Location = new Point(col2X, stZidov.Bottom + 3*padding);
         }
-
+        //gumba
         private void reset_Click(object sender, EventArgs e)
         {
             // Reset player statistics
@@ -463,9 +464,10 @@ namespace grafika
                 MessageBox.Show("Game continues!", "End Game", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
+        // ==============================================
         public void UstvariPolje()
         {
+
             if (mreza == null)
             {
                 mreza = new Button[visina, sirina];
@@ -473,10 +475,14 @@ namespace grafika
 
 
             int velikostPolja = this.ClientSize.Height;
-            int sirinaGumba1 = velikostPolja / sirina;
-            int sirinaGumba2 = (this.ClientSize.Width-500) / visina;
+            //int sirinaGumba = velikostPolja / sirina;
 
-            int sirinaGumba=Math.Min(sirinaGumba1 , sirinaGumba2);
+            int sirinaGumba1 = velikostPolja / sirina;
+            int sirinaGumba2 = (this.ClientSize.Width - 400) / visina;
+
+            int sirinaGumba = Math.Min(sirinaGumba1, sirinaGumba2);
+
+            this.Width = sirinaGumba * visina + 500;
 
             for (int i = 0; i < visina; i++)
             {
@@ -503,6 +509,10 @@ namespace grafika
 
             SledenjePodatkov();
             AdjustFontSize();
+
+
+
+            
 
 
         }
@@ -580,7 +590,12 @@ namespace grafika
         private void Form1_ResizeEnd(object sender, EventArgs e)
         {
             int velikostPolja = this.ClientSize.Height;
-            int sirinaGumba = velikostPolja / sirina;
+            //int sirinaGumba = velikostPolja / sirina;
+
+            int sirinaGumba1 = velikostPolja / sirina;
+            int sirinaGumba2 = (this.ClientSize.Width - 400) / visina;
+
+            int sirinaGumba = Math.Min(sirinaGumba1, sirinaGumba2);
 
             this.Width= sirinaGumba*visina+500;
             
@@ -589,12 +604,11 @@ namespace grafika
                 UstvariPolje();
                 SledenjePodatkov();
                 AdjustFontSize();
-
-
             }
             else { ZacetniEkran(); }
 
         }
+
         private void AdjustFontSize()
         {
             float newSize = 12f; // Define the new font size, adjust as needed
@@ -613,7 +627,7 @@ namespace grafika
             if (stZidov2 != null) stZidov2.Font = new Font(stZidov2.Font.FontFamily, newSize);
         }
 
-
+        //podatki
         private void zmaga()
         {
             string zmagal="";
@@ -694,6 +708,8 @@ namespace grafika
             SledenjePodatkov();
         }
 
+
+        //pobiranje
         private void CheckForFourInARow()
         {
             for (int i = 0; i < visina; i++)
